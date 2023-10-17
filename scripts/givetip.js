@@ -6,18 +6,15 @@ btn.addEventListener('click', givetip);
 // Einen Tipp in die Datenbank einfügen
 async function givetip() {
     const tip = document.querySelector('#tip');
+    console.log(tip.value);
     const { data, error } = await supa.from("tips").insert([
-        { description: tip.value, users_id: 'Hallo' }
+        { description: tip.value, location: standort.value, level: level.value}
     ]);
     if (data) {
         console.log('Entry was created successfully', data);
       } else {
-        console.log('Error occured')
+        console.log('Error occured', error)
       }
 
     return data;
   }
-  
-console.log('givetip', givetip());
-
-console.log("Hallo");
