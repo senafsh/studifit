@@ -1,6 +1,6 @@
 **Kurzreflexion Gruppenarbeit App studifit**
 
-**Quellen und Methodik**
+**Quellen und Methodik**  
 Unsere Recherchen basieren auf den Quellen Internet, ChatGPT, W3 Schools, das Erlernte vom Unterricht sowie Lea und Anja. Ein <3-liches Dankeschön an Lea und Anja für die tolle Unterstützung!
 
 **Herausforderungen**
