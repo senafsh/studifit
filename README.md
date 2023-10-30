@@ -23,7 +23,7 @@ Ebenfalls wollten wir uns mit diesem Projekt herausfordern und Neues dazu lernen
 Nach der Midtermpräsentation programmierten wir das JavaScript. Anschliessend widmeten wir uns dem HTML und dem CSS gemäss unserem Screen Design. Unser Fokus lag stets auf dem Technischen und darauf, dass wir am Schluss eine technisch funktionierende App haben. 
 
 **Anmerkung zum Filtern in der App**  
-Die Datenbank wurde so gefüttert, dass wie folgt gefiltert werden kann:
-Filtern nach Anfänger und Bern und erneute Tipp Anzeige bei Anfänger und Bern
-Filtern nach Fortgeschritten und Zürich
+Die Datenbank wurde so gefüttert, dass wie folgt gefiltert werden kann:  
+Filtern nach Anfänger und Bern und erneute Tipp Anzeige bei Anfänger und Bern  
+Filtern nach Fortgeschritten und Zürich  
 Filtern nach Fortgeschritten und Chur
