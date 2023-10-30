@@ -1,4 +1,78 @@
-body {
-    background-color: green;
+/* Allgemeine CSS-Definitionen */
+
+/* Schriftarten */
+
+h1 {
+    font-family: Montserrat;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: 1.4px;
 }
 
+/* Buttons */
+
+.button_violet {
+    display: flex;
+    width: 315px;
+    padding: 20px 120px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 30px;
+    background: var(--Violett, #8922BA);
+
+    color: var(--White, #FFF);
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.button_green {
+    display: flex;
+    width: 315px;
+    padding: 20px 120px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 30px;
+    background: var(--Trkis, linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), #26E3C1);
+    
+    color: var(--White, #FFF);
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+/* index.html */
+
+
+/* choose.html */
+
+#img_choose_left {
+    width: 892px;
+    height: 1024px;
+    flex-shrink: 0;
+}
+
+/* gettip.html */
+
+
+/* givetip.html */
+
+
+/* bestaetigung.html */
+
+#img_bestaetigung {
+    height: 100%;
+    width: 50%;
+}

@@ -19,7 +19,27 @@
     <script type="module" src="scripts/gettip.js"></script>
 
     <h2>Get your daily dose</h2>
+
+    <label for="standort">Standort:</label>
+    <select name="standort" id="standort">>
+        <option value="zuerich">Zürich</option>
+        <option value="bern">Bern</option>
+        <option value="chur">Chur</option>
+    </select>
+
+    <label for="level">Level:</label>
+    <select name="level" id="level">>
+        <option value="anfaenger">Anfänger</option>
+        <option value="fortgeschritten">Fortgeschritten</option>
+    </select>
+
+    <button id="gettip">Tipp erhalten</button>
+
     <ul id="list"></ul>
+
+    <img id="wuerfel" src="public/images/dice.svg" alt="wuerfel">
+
+    <button id="button_give">Tipp geben</button>
 
 </body>
 

@@ -15,14 +15,19 @@ async function sendMagicLink() {
     }
 }
 
+
+
 // Funktion, um User Status zu aktualisieren
 function updateUserStatus(user) {
   const userStatusElement = document.getElementById('userStatus');
   
   if (user) {
-      userStatusElement.textContent = `Authenticated as: ${user.email}`;
+      userStatusElement.textContent = `Erfolgreich eingeloggt als: ${user.email}`;
+      setTimeout(function() {
+        window.location.href = "choose.html";
+    }, 3000)
   } else {
-      userStatusElement.textContent = "Not authenticated.";
+      userStatusElement.textContent = "Login hat nicht geklappt.";
   }
 }
 
