@@ -14,33 +14,39 @@
 
 <body>
 
-    <h1>studifit</h1>
     <script type="module" src="config/config.js"></script>
     <script type="module" src="scripts/gettip.js"></script>
 
-    <h2>Get your daily dose</h2>
+    <a href="choose.html"><img id="logo" src="public/images/logo.png" alt="logo"></img></a>
 
-    <label for="standort">Standort:</label>
-    <select name="standort" id="standort">>
-        <option value="zuerich">Zürich</option>
-        <option value="bern">Bern</option>
-        <option value="chur">Chur</option>
-    </select>
+    <div class="text_left">
+        <h2>Get your daily dose</h2>
 
-    <label for="level">Level:</label>
-    <select name="level" id="level">>
-        <option value="anfaenger">Anfänger</option>
-        <option value="fortgeschritten">Fortgeschritten</option>
-    </select>
+        <div id="filter">
 
-    <button id="gettip">Tipp erhalten</button>
+        <label for="standort">Standort:</label>
+        <select name="standort" id="standort">>
+            <option value="zuerich">Zürich</option>
+            <option value="bern">Bern</option>
+            <option value="chur">Chur</option>
+        </select>
 
-    <ul id="list"></ul>
+        <label for="level">Level:</label>
+        <select name="level" id="level">>
+            <option value="anfaenger">Anfänger</option>
+            <option value="fortgeschritten">Fortgeschritten</option>
+        </select>
 
-    <img id="wuerfel" src="public/images/dice.svg" alt="wuerfel">
+        </div>
 
-    <button id="button_give">Tipp geben</button>
+        <button class="button_violet" id="gettip">Tipps anzeigen</button>
 
+        <img id="wuerfel" src="public/images/dice.svg" alt="wuerfel">
+    </div>
+
+    <div id="container3" class="container">
+        <ul id="list"></ul>
+    </div>
 </body>
 
 
