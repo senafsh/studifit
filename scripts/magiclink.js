@@ -2,32 +2,30 @@ import { supa } from "../config/config.js";
 
 console.log(window.location.origin);
 
+const userStatusElement = document.getElementById('userStatus');
+
 // Funktion, um Magic Link zu senden
 async function sendMagicLink() {
     const email = document.getElementById('emailInput').value;
     const { error } = await supa.auth.signIn({ email });
     
     if (error) {
-
         console.error("Error sending magic link: ", error.message);
     } else {
         console.log("Magic link sent to ", email);
+        userStatusElement.textContent = "Anmeldelink verschickt";
     }
 }
 
-
-
 // Funktion, um User Status zu aktualisieren
 function updateUserStatus(user) {
-  const userStatusElement = document.getElementById('userStatus');
   
   if (user) {
-      userStatusElement.textContent = `Erfolgreich eingeloggt als: ${user.email}`;
-      setTimeout(function() {
+        userStatusElement.textContent = `Erfolgreich eingeloggt als: ${user.email}`;
         window.location.href = "choose.html";
-    }, 3000)
   } else {
-      userStatusElement.textContent = "Login hat nicht geklappt.";
+      // userStatusElement.textContent = "Login hat nicht geklappt.";
+      // console.log("Login hat nicht geklappt.")
   }
 }
 
@@ -50,15 +48,3 @@ supa.auth.onAuthStateChange((event, session) => {
   }
 });
 
-// 3. Logout Logik
-async function logout() {
-  const { error } = await supa.auth.signOut();
-  if (error) {
-      console.error("Error during logout:", error);
-  } else {
-      updateUserStatus(null);
-      console.log("User logged out successfully.");
-  }
-}
-
-document.getElementById('logoutButton').addEventListener('click', logout);

@@ -1,6 +1,6 @@
 import { supa } from "../config/config.js";
 
-// Alle Tipps abrufen und anzeigen
+// Alle Tipps nach den ausgwählten Kriterien abrufen und anzeigen
 
 const gettip = document.querySelector('#gettip');
 gettip.addEventListener('click', showSelected);
@@ -22,12 +22,18 @@ async function showSelected() {
   
   ul.innerHTML = ''; // Zurücksetzen der Liste, um vorherige Ergebnisse zu entfernen
   
+  if (data.length > 0) {
+    ul.classList.remove('hidden'); // Liste sichtbar machen, wenn mindestens ein Tipp verfügbar ist
+  }
+  
   data.forEach(tip => {
     const li = document.createElement('li');
     li.innerHTML = tip.description;
     ul.appendChild(li);
   });
 }
+
+// Alle Tipps abrufen und anzeigen
 
 const gettiprandom = document.querySelector('#wuerfel');
 gettiprandom.addEventListener('click', showAll);
@@ -43,6 +49,10 @@ async function showAll() {
   
   ul.innerHTML = ''; // Zurücksetzen der Liste, um vorherige Ergebnisse zu entfernen
   
+  if (data.length > 0) {
+    ul.classList.remove('hidden'); // Liste sichtbar machen, wenn mindestens ein Tipp verfügbar ist
+  }
+  
   data.forEach(tip => {
     const li = document.createElement('li');
     li.innerHTML = tip.description;
@@ -51,6 +61,6 @@ async function showAll() {
 }
 
 // Bei Klick auf Button zur Tipp geben Seite weiterleiten
-document.getElementById('button_give').addEventListener('click', function() {
-  window.location.href = "givetip.html";
-});
+// document.getElementById('button_give').addEventListener('click', function() {
+//  window.location.href = "givetip.html";
+// });

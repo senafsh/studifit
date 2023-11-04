@@ -15,6 +15,7 @@
 <body>
 
     <script type="module" src="config/config.js"></script>
+    <script type="module" src="scripts/script.js"></script>
     <script type="module" src="scripts/gettip.js"></script>
 
     <a href="choose.html"><img id="logo" src="public/images/logo.png" alt="logo"></img></a>
@@ -22,7 +23,7 @@
     <div class="text_left">
         <h2>Get your daily dose</h2>
 
-        <div id="filter">
+        <div id="filter" class="dropdown">
 
         <label for="standort">Standort:</label>
         <select name="standort" id="standort">>
@@ -45,8 +46,10 @@
     </div>
 
     <div id="container3" class="container">
-        <ul id="list"></ul>
+        <ul id="list" class="hidden"></ul>
     </div>
+
+    <button id="logoutButton">Logout</button>
 </body>
 
 

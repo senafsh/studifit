@@ -3,6 +3,11 @@
 /* Schriftarten */
 
 * {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
     text-transform: uppercase;
 }
 
@@ -35,21 +40,15 @@ p {
 
 button, input {
     display: flex;
-    width: 315px;
-    padding: 20px 120px;
+    width: 50%;
+    padding: 15px 100px;
     justify-content: center;
     align-items: center;
-    gap: 10px;
     border-radius: 30px;
 
     color: var(--White, #FFF);
     text-align: center;
-    font-family: Montserrat;
     font-size: 20px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    text-transform: uppercase;
 }
 
 button:hover {
@@ -65,14 +64,45 @@ button:hover {
 }
 
 .button_input {
+    width: 50%;
+    padding: 15px;
+    box-sizing: border-box;
     border-radius: 30px;
     border: 2px solid var(--Trkis, #26E3C1);
     box-shadow: 0px 4px 14px 0px rgba(0, 0, 0, 0.10);
     color: #000;
 }
 
+/* Logo ist in der Ecke fixiert, mit einem kleinen Abstand */
+#logo {
+    position: fixed;
+    left: 1vw;
+    top: 1vw;
+}
+
+/* Logout Button in der Ecke oben rechts fixiert, mit einem kleinen Abstand */
+
+#logoutButton {
+    width: 5%;
+    font-size: 12px;
+    padding: 10px 40px;
+    color: #000;
+
+    position: fixed;
+    right: 1vw;
+    top: 1vw;
+    z-index: 1;
+}
+
 /* index.html */
 
+#left_index {
+    justify-content: center;
+}
+
+#left_index button{
+    margin: 10px;
+}
 
 /* choose.html */
 
@@ -93,13 +123,6 @@ html, body {
     align-items: center;
 }
 
-/* Logo ist in der Ecke fixiert, mit einem kleinen Abstand */
-#logo {
-    position: fixed;
-    left: 1vw;
-    top: 1vw;
-}
-
 /* Linker Container */
 #container1 {
     background-image: url("../public/images/img-index.png");
@@ -115,12 +138,6 @@ html, body {
     top: 0;
 }
 
-/*
-
-#button_get, #button_give {
-    justify-content: center;
-} */
-
 
 /* gettip.html */
 
@@ -132,9 +149,27 @@ html, body {
     top: 0;
 }
 
+/* Grundstil für das Dropdown-Menü */
 #filter {
-    flex-direction: row;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
 }
+
+ /* Stil für das Dropdown-Inhalt */
+  #standort, #level {
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 12px 16px;
+    z-index: 1;
+    margin: 15px 0px;
+  }
+  
+  /* Zeige das Dropdown, wenn die Maus darüber schwebt */
+  .dropdown:hover, #standort, #level {
+    display: block;
+  }
 
 #list {
     list-style: none;
@@ -143,14 +178,28 @@ html, body {
     border: 1px solid #ccc;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 15px;
   }
 
 #list li {
     padding: 10px;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 2px solid #ccc;
     color: #333;
     font-size: 16px;
   }
+
+#list li:last-child {
+    border-bottom: none;
+}
+
+.hidden {
+    display: none;
+}
+
+#wuerfel {
+    cursor: pointer;
+}
+
 
 /* givetip.html */
 
@@ -166,8 +215,19 @@ html, body {
     align-items: center;
 }
 
+.textarea_input {
+    width: 50%;
+    height: 25%;
+    padding: 15px;
+    box-sizing: border-box;
+    border-radius: 30px;
+    border: 2px solid var(--Trkis, #26E3C1);
+    box-shadow: 0px 4px 14px 0px rgba(0, 0, 0, 0.10);
+    color: #000;
+}
 
-/* index.html & bestaetigung.html */
+
+/* index.html & bestaetigung.html & gettip.html*/
 
 #img_right {
     height: 100%;
@@ -179,8 +239,8 @@ html, body {
 }
 
 .text_left {
-    width: 50%;
     height: 100%;
+    width: 50%;
     display: flex;
     flex-direction: column;
     text-align: center;
