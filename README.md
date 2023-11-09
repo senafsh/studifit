@@ -4,7 +4,7 @@
 Unsere Recherchen basieren auf den Quellen Internet, ChatGPT, W3 Schools, das Erlernte vom Unterricht sowie Lea und Anja. Ein <3-liches Dankeschön an Lea und Anja für die tolle Unterstützung!
 
 **Herausforderungen**  
-Das gesamte Projekt war eine grosse Herausforderung, welcher wir uns aber gerne stellten. Die wohl grösste Knacknuss war für uns das Zusammenspiel der verschiedenen Anwendungen wie Java Script, Supabase und GitHub. Wir waren froh, hatten wir im Unterricht zusammen mit Lea und Anja das GitHub mit dem Studio Visual Code eingerichtet, so dass die ganze Gruppe Zugriff auf die Projektdaten hatte. 
+Das gesamte Projekt war eine grosse Herausforderung, welcher wir uns aber gerne stellten. Die wohl grösste Knacknuss war für uns das Zusammenspiel der verschiedenen Anwendungen wie Java Script, Supabase und GitHub. Wir waren froh, hatten wir im Unterricht zusammen mit Lea und Anja das GitHub mit dem Visual Studio Code eingerichtet, so dass die ganze Gruppe Zugriff auf die Projektdaten hatte. 
 
 Eine weitere Herausforderung war das Zeitmanagement. Die kurze Zeit, die uns für das Projekt zur Verfügung stand, war Segen und Fluch zugleich. Einerseits blieben wir unter diesem Zeitdruck sehr fokussiert und schoben nichts auf, andererseits war es doch ein grosser Druck. 
 
@@ -19,8 +19,8 @@ Ebenfalls planten wir ein, die App ein paar Tage vor der Abgabefrist fertig zu s
 
 **Umsetzung**  
 Wir hielten unsere App bewusst einfach, da sie benutzerfreundlich sein soll und die Tipps von den Nutzern schnell gefunden werden sollten. 
-Ebenfalls wollten wir uns mit diesem Projekt herausfordern und Neues dazu lernen, ohne uns zu überfordern. Ebenfalls wollten wir unseren Zeitplan einhalten können. 
-Nach der Midtermpräsentation programmierten wir das JavaScript. Anschliessend widmeten wir uns dem HTML und dem CSS gemäss unserem Screen Design. Unser Fokus lag stets auf dem Technischen und darauf, dass wir am Schluss eine technisch funktionierende App haben. 
+Ebenfalls wollten wir uns mit diesem Projekt herausfordern und Neues dazu lernen, ohne uns zu überfordern. Ausserdem wollten wir unseren Zeitplan einhalten können. 
+Nach der Midtermpräsentation programmierten wir HTML und JavaScript. Anschliessend widmeten wir uns dem CSS gemäss unserem Screen Design. Unser Fokus lag stets auf dem Technischen und darauf, dass wir am Schluss eine technisch funktionierende App haben. 
 
 **Anmerkung zum Filtern in der App**  
 Die Datenbank wurde so gefüttert, dass wie folgt gefiltert werden kann:  
