@@ -22,11 +22,5 @@ Wir hielten unsere App bewusst einfach, da sie benutzerfreundlich sein soll und 
 Ebenfalls wollten wir uns mit diesem Projekt herausfordern und Neues dazu lernen, ohne uns zu überfordern. Ausserdem wollten wir unseren Zeitplan einhalten können. 
 Nach der Midtermpräsentation programmierten wir HTML und JavaScript. Anschliessend widmeten wir uns dem CSS gemäss unserem Screen Design. Unser Fokus lag stets auf dem Technischen und darauf, dass wir am Schluss eine technisch funktionierende App haben. 
 
-**Anmerkung zum Filtern in der App**  
-Die Datenbank wurde so gefüttert, dass wie folgt gefiltert werden kann:  
-Filtern nach Anfänger und Bern und erneute Tipp Anzeige bei Anfänger und Bern  
-Filtern nach Fortgeschritten und Zürich  
-Filtern nach Fortgeschritten und Chur  
-
 **Anmerkung zu den Bildern in der App**  
 Da wir selber keine geeigneten Bilder hatten und keine Copyrights verletzen wollten, haben wir uns für Farbflächen als Bilder entschieden. Die Bilder, die wir in der Planungsphase verwendet hatten, sind im Figma Screen Design File abgelegt.
