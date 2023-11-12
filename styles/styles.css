@@ -127,13 +127,13 @@ html, body {
 
 /* Linker Container */
 #container1 {
-    background-image: url("../public/images/img-index.png");
+    background-image: url("../public/images/img-choose1.jpg");
     background-position: left;
 }
 
 /* Rechter Container */
 #container2 {
-    background-image: url("../public/images/frau-mit-fahrrad-und-handy.png");
+    background-image: url("../public/images/img-choose2.jpg");
     background-position: right;
     position: absolute;
     right: 0;
@@ -144,7 +144,7 @@ html, body {
 /* gettip.html */
 
 #container3 {
-    background-image: url("../public/images/board.png");
+    background-image: url("../public/images/img-gettip.jpg");
     background-position: right;
     position: absolute;
     right: 0;
@@ -207,7 +207,7 @@ html, body {
 /* givetip.html */
 
 #container0 {
-    background-image: url(../public/images/background.png);
+    background-image: url(../public/images/img-givetip.jpg);
     height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
