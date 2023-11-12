@@ -26,4 +26,7 @@ Nach der Midtermpräsentation programmierten wir HTML und JavaScript. Anschliess
 Die Datenbank wurde so gefüttert, dass wie folgt gefiltert werden kann:  
 Filtern nach Anfänger und Bern und erneute Tipp Anzeige bei Anfänger und Bern  
 Filtern nach Fortgeschritten und Zürich  
-Filtern nach Fortgeschritten und Chur
+Filtern nach Fortgeschritten und Chur  
+
+**Anmerkung zu den Bildern in der App**  
+Unser D
