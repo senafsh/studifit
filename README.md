@@ -29,4 +29,4 @@ Filtern nach Fortgeschritten und Zürich
 Filtern nach Fortgeschritten und Chur  
 
 **Anmerkung zu den Bildern in der App**  
-Unser D
+Da wir selber keine geeigneten Bilder hatten und keine Copyrights verletzen wollten, haben wir uns für Farbflächen als Bilder entschieden. Die Bilder, die wir in der Planungsphase verwendet hatten, sind im Figma Screen Design File abgelegt.
